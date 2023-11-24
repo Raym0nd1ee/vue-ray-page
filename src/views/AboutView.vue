@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <p>2nd Commit add this paragraph</p>
+    <p>2nd Commit add this paragraph to about page</p>
   </div>
 </template>
 
