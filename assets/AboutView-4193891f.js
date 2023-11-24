@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as s,F as o,a as e}from"./index-8f662020.js";const n={},_=e("div",{class:"about"},[e("h1",null,"This is an about page")],-1),c=e("div",{class:"para"},[e("p",null,"2nd Commit add this paragraph to about page")],-1);function r(i,l){return t(),s(o,null,[_,c],64)}const d=a(n,[["render",r]]);export{d as default};
