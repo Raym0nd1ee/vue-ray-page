@@ -1,9 +1,13 @@
 <script setup>
-
+import product from '../components/products.vue'
 </script>
-
 <template>
-  <main>
-  
-  </main>
+
+<product />
 </template>
+ 
+ 
+
+    
+
+
