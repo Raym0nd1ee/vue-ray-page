@@ -1,9 +1,7 @@
 <template>
     <div>
         
-        <h1>Product Details</h1>
-        <slot name="Product1">p1</slot>
-        <slot name="Product2">p2</slot>
+ 
 
     </div>
 </template>
@@ -12,10 +10,7 @@
 export default {
     components:['products'],
     setup (props) {
-      
-
-    
-    }
+        }
 }
 </script>
 
