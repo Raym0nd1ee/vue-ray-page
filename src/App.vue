@@ -5,7 +5,7 @@ import ref from 'vue'
 const d= ref()
 
 axios.get('http://localhost:3000/api/users')
-  .then((res)=> d.value = res.data)
+  .then((res)=> d.value = res.data console.log(d))
 </script>
 
 <template>
