@@ -1,6 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import axios from 'axios'
+import ref from 'vue'
+const d= ref()
 
+axios.get('http://localhost:3000/api/users')
+  .then((res)=> d.value = res.data)
 </script>
 
 <template>
